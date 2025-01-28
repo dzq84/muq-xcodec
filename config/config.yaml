@@ -1,0 +1,10 @@
+batch_size: 2
+sample_rate: 24000
+segment_length_train: 5
+segment_length_test: 1
+num_workers: 8
+devices: [0,1,2,3]
+train_dir: "jamendo-wav/"
+test_dir: "jamendo-wav/"
+log_dir: './mucodec-25'
+log_name: 'mucodec-25'
